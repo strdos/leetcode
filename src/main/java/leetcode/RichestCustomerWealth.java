@@ -2,13 +2,14 @@ package leetcode;
 
 public class RichestCustomerWealth {
     public static void main(String[] args) {
-        int[][] accounts = new int[2][3];
+        int[][] accounts = new int[2][3]; // [2] is number of rows; [3] is number of columns in each row
         accounts[0][0] = 1;
         accounts[0][1] = 2;
         accounts[0][2] = 3;
         accounts[1][0] = 1;
         accounts[1][1] = 2;
         accounts[1][2] = 7;
+        int[][] accounts2 = {{1,2,3},{3,4,8}}; // a simpler way to initialize an array;
         System.out.println(maximumWealth(accounts));
     }
     public static int maximumWealth(int[][] accounts) {
