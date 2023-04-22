@@ -4,7 +4,8 @@ import java.util.Arrays;
 
 public class RansomNote {
     public static void main(String[] args) {
-        System.out.println(canConstruct("a", "ba"));
+        System.out.println(canConstruct("eat", "2iliketea"));
+        System.out.println(canConstructUsingSubstring("eat2", "iliketea"));
     }
     public static boolean canConstruct(String ransomNote, String magazine) {
 
@@ -31,6 +32,21 @@ public class RansomNote {
             if (!isMatch) return false;
         }
         return numOfMatchedChars == ransomNoteArray.length;
+    }
+    public static boolean canConstructUsingSubstring(String ransomNote, String magazine) {
+        if (ransomNote.length() > magazine.length()) {
+            return false;
+        }
+        int index;
+        for (int i = 0; i < ransomNote.length(); i++) {
+            char r = ransomNote.charAt(i);
+            index = magazine.indexOf(r);
+            if (index == -1) {
+                return false;
+            }
+            magazine = magazine.substring(0, index) + magazine.substring(index + 1);
+        }
+        return true;
     }
 }
 
