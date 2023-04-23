@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f52909b-786d-42e7-936d-f405de74ef7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/Polyndrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/AppTest.java" afterDir="false" />
+    <list default="true" id="8f52909b-786d-42e7-936d-f405de74ef7e" name="Changes" comment="MergeTwoSortedLists">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/MiddleOfLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/MiddleOfLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,14 +40,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/strdo/IdeaProjects/Selenium_Dev_Tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/strdo/IdeaProjects/Selenium_Dev_Tools&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,16 +57,109 @@
       <option name="presentableId" value="Default" />
       <updated>1680979624070</updated>
     </task>
+    <task id="LOCAL-00001" summary="TwoSum, Polyndrome">
+      <created>1681417824803</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681417824803</updated>
+    </task>
+    <task id="LOCAL-00002" summary="RomanToInt">
+      <created>1681499770897</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681499770897</updated>
+    </task>
+    <task id="LOCAL-00003" summary="LongestCommonPrefix">
+      <created>1681545985498</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681545985498</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ValidParentheses">
+      <created>1681588318493</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681588318493</updated>
+    </task>
+    <task id="LOCAL-00005" summary="RunningSumOfArray">
+      <created>1681849294739</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681849294739</updated>
+    </task>
+    <task id="LOCAL-00006" summary="RichestCustomerWealth (2D arrays)">
+      <created>1682016101412</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682016101412</updated>
+    </task>
+    <task id="LOCAL-00007" summary="FizzBuzz list">
+      <created>1682021219848</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682021219848</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ListNode, MiddleOfLinkedList, ReduceNumberToZero">
+      <created>1682089780212</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682089780212</updated>
+    </task>
+    <task id="LOCAL-00009" summary="RichestCustomerWealth minor addition">
+      <created>1682089821702</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682089821702</updated>
+    </task>
+    <task id="LOCAL-00010" summary="RansomNote (using substring)">
+      <created>1682170385641</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682170385641</updated>
+    </task>
+    <task id="LOCAL-00011" summary="MergeTwoSortedLists">
+      <created>1682183939709</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682183939709</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TwoSum, Polyndrome" />
+    <MESSAGE value="RomanToInt" />
+    <MESSAGE value="LongestCommonPrefix" />
+    <MESSAGE value="ValidParentheses" />
+    <MESSAGE value="RunningSumOfArray" />
+    <MESSAGE value="RichestCustomerWealth (2D arrays)" />
+    <MESSAGE value="FizzBuzz list" />
+    <MESSAGE value="ListNode, MiddleOfLinkedList, ReduceNumberToZero" />
+    <MESSAGE value="RichestCustomerWealth minor addition" />
+    <MESSAGE value="RansomNote" />
+    <MESSAGE value="RansomNote (using substring)" />
+    <MESSAGE value="MergeTwoSortedLists" />
+    <option name="LAST_COMMIT_MESSAGE" value="MergeTwoSortedLists" />
+  </component>
   <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="digits[counter]" />
-        <watch expression="digits.get(digits.size() - 1 - i)" language="JAVA" />
-        <watch expression="digits.get(i)" />
-        <watch expression="digits.get(j)" />
-      </configuration>
-    </watches-manager>
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
