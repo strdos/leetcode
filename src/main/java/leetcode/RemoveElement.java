@@ -2,7 +2,8 @@ package leetcode;
 
 public class RemoveElement {
     public static void main(String[] args) {
-        System.out.print(removeElement(new int[] {2,2,3}, 2));
+        //System.out.print(removeElement(new int[] {2,2,3}, 2));
+        System.out.print(removeElementSolution(new int[] {2,2,3,4,2,5}, 2));
     }
     public static int removeElementOld(int[] nums, int val) {
         if (nums.length == 0) return 0;
@@ -53,5 +54,14 @@ public class RemoveElement {
             }
             System.out.println();
         return nums.length - counter;
+    }
+    public static int removeElementSolution(int[] nums, int val) {
+        int count = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != val) {
+                nums[count++] = nums[i];
+            }
+        }
+        return count;
     }
 }
