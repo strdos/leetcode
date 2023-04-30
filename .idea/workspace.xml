@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f52909b-786d-42e7-936d-f405de74ef7e" name="Changes" comment="RemoveElement">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/PlusOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/SearchInsertPosition.java" afterDir="false" />
+    <list default="true" id="8f52909b-786d-42e7-936d-f405de74ef7e" name="Changes" comment="SearchInsertPosition, PlusOne">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/PascalTriangle2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/PascalsTriangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/RemoveElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682277506375</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="SearchInsertPosition, PlusOne">
+      <created>1682796147476</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682796147476</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -167,7 +173,8 @@
     <MESSAGE value="MergeTwoSortedLists" />
     <MESSAGE value="RemoveDuplicatesFromSortedArray" />
     <MESSAGE value="RemoveElement" />
-    <option name="LAST_COMMIT_MESSAGE" value="RemoveElement" />
+    <MESSAGE value="SearchInsertPosition, PlusOne" />
+    <option name="LAST_COMMIT_MESSAGE" value="SearchInsertPosition, PlusOne" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -178,5 +185,11 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="previousRowValues.get(i - 2)" />
+        <watch expression="previousRowValues.get(i - 3)" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
